@@ -6,12 +6,14 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 gsap.registerPlugin(ScrollTrigger);
 
+const BASE_PATH = "";
+
 const projects = [
   {
     id: "01",
     title: "Data Dashboard",
     tag: "UI / Analytics Platform",
-    img: "/work1.jpg",
+    img: `${BASE_PATH}/work1.jpg`,
     desc: "Real-time analytics platform built for high-throughput data visualization, instant reporting, and enterprise scale.",
     aspect: "hero",
   },
@@ -19,7 +21,7 @@ const projects = [
     id: "02",
     title: "Brand Identity",
     tag: "Branding & Design System",
-    img: "/work2.jpg",
+    img: `${BASE_PATH}/work2.jpg`,
     desc: "Comprehensive digital brand identity system crafted to elevate market positioning across all global channels.",
     aspect: "split-right",
   },
@@ -27,7 +29,7 @@ const projects = [
     id: "03",
     title: "Mobile Experience",
     tag: "Mobile App & Product UX",
-    img: "/work3.jpg",
+    img: `${BASE_PATH}/work3.jpg`,
     desc: "Fluid, high-performance mobile interface designed for maximum user engagement, micro-interactions, and speed.",
     aspect: "split-left",
   },
